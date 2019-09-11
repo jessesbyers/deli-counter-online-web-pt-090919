@@ -1,14 +1,15 @@
-require 'pry'
+#require 'pry'
 
 def line(array)
   new_array = []
   if array.length == 0
      puts "The line is currently empty."
    else
+     number = array.index + 1
      array.each do |name, number|
-      number = array.index + 1
-     array << "number"
-     array.join("(#{number} += 1)")
+     array << "#{number}"
+     array << "The line is currently: "
+     new_array << array.join("(#{number} += 1)")
   end
 end
 end
@@ -32,6 +33,6 @@ end
 
 
 
-def take_a_number(array, string)
-  array << string
-end
+#def take_a_number(array, string)
+#  array << string
+#end
