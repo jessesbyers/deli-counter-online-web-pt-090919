@@ -11,6 +11,7 @@ def line(array)
      array.join("(#{number} += 1)")
   end
 end
+end
 
 #not passing yet - only puts first in line, not entire line
 # def line(array)
