@@ -12,6 +12,7 @@ def line(array)
      new_array << array.join("(#{number} += 1)")
   end
 end
+new_array
 end
 
 #not passing yet - only puts first in line, not entire line
