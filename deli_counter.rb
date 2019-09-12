@@ -21,7 +21,7 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
 else
-    array.each_with_index do |number, name|
+    array.each_with_index do |name, number|
       deli_line << "#{number}. #{name}"
       phrase = "The line is currently: "
       binding.pry
