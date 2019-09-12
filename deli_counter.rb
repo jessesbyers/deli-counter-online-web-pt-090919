@@ -24,10 +24,10 @@ else
     array.each_with_index do |name, number|
       deli_line << "#{number + 1}. #{name}"
 
-      phrase = "The line is currently: "
-      deli_line.each_with_index do |name, number|
-         puts phrase + "#{name};"
-end
+#      phrase = "The line is currently: "
+#      deli_line.each_with_index do |name, number|
+#         puts phrase + "#{name} "
+#end
     end
     puts deli_line
   end
