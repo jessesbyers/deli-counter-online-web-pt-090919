@@ -23,7 +23,7 @@ def line(array)
 else
   deli_line << "The line is currently: "
     array.each do |name, number|
-    number = array.index += 1
+    number = array.index + 1
       line = "#{number}. #{name}"
       deli_line << "#{line}"
 end
