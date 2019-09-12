@@ -23,17 +23,16 @@ def line(array)
 else
     array.each_with_index do |name, number|
       deli_line << "#{number + 1}. #{name}"
-      phrase = "The line is currently: "
-      deli_line.each_with_index do |name|
-         puts phrase + "#{name}"
 
+      phrase = "The line is currently: "
+      deli_line.each_with_index do |name, number|
+         puts phrase + "#{name}"
 end
     end
     puts deli_line
   end
 end
 
-line
 
 
 #def take_a_number(array, string)
