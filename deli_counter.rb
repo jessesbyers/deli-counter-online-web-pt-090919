@@ -14,11 +14,11 @@ else
 end
 
 def take_a_number(array, string)
-#  new_list = []
- array.each_with_index do |name, index|
+  new_list = array.push(string)
+ new_list.each_with_index do |name, index|
    number = index + 1
-   array.push(string)
    puts "Welcome, #{name}. You are number #{number} in line."
  end
-# new_list
+
+ new_list
 end
