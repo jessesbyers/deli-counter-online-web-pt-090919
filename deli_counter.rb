@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 # def line(array)
 #   new_array = []
@@ -24,7 +24,6 @@ else
     array.each_with_index do |name, number|
       deli_line << "#{number + 1}. #{name}"
       phrase = "The line is currently: "
-      binding.pry
       deli_line.each do |name|
          puts phrase + "#{number + 1}. #{name}"
 end
