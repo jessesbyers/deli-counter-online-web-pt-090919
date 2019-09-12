@@ -14,8 +14,8 @@ else
 end
 
 def take_a_number(array, string)
+  array.push(string)
  array.each_with_index do |name, index|
-   array.push(string)
    number = index + 1
    puts "Welcome, #{name}. You are number #{number} in line."
 end
