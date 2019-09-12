@@ -23,6 +23,6 @@ def take_a_number(array, string)
    new_list.each_with_index do |name, index|
      number = index + 1
      puts "Welcome, #{name}. You are number #{number} in line."
-   end
+   
  end
 end
