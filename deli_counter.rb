@@ -26,6 +26,7 @@ else
       phrase = "The line is currently: "
       deli_line.each do |name|
          puts phrase + "#{number + 1}. #{name}"
+         binding.pry
 end
     end
     puts deli_line
