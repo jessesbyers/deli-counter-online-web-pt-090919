@@ -25,7 +25,7 @@ else
       deli_line << "#{number + 1}. #{name}"
       phrase = "The line is currently: "
       deli_line.each do |name|
-         puts phrase + " #{name}"
+         puts phrase + "#{name}"
 end
     end
     puts deli_line
