@@ -17,6 +17,5 @@ def take_a_number(array, string)
  array.each_with_index do |name, index|
    number = index + 1
    puts "Welcome, #{name}. You are number #{number} in line."
- end
    array.push(string)
 end
