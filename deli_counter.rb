@@ -24,8 +24,9 @@ else
   deli_line << "The line is currently: "
 
     array.each do |name, number|
-    number = array.index + 1
-      line = "#{number}. #{name}"
+    number = array.index
+    num = number + 1
+      line = "#{num}. #{name}"
       binding.pry
       deli_line << line
 end
