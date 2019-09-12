@@ -25,7 +25,7 @@ else
     array.each do |name, number|
     number = array.index + 1
       line = "#{number}. #{name}"
-      deli_line << "#{line}"
+      deli_line << line
 end
     end
     return deli_line
