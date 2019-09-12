@@ -14,7 +14,9 @@ else
 end
 
 def take_a_number(array, string)
-  if array.length == 0
  array << string
+ array.each_with_index do |name, index|
+   number = index + 1
+   puts "Welcome, #{name}. You are number #{number} in line."
  end
 end
