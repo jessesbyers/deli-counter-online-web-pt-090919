@@ -19,3 +19,4 @@ def take_a_number(array, string)
    puts "Welcome, #{name}. You are number #{number} in line."
    array.push(string)
 end
+end
