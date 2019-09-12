@@ -19,6 +19,4 @@ def take_a_number(array, string)
    number = index + 1
    puts "Welcome, #{name}. You are number #{number} in line."
  end
-
- new_list
 end
