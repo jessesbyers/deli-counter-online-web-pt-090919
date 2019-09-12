@@ -23,8 +23,8 @@ def line(array)
 else
     array.each_with_index do |name, number|
       deli_line << "#{number + 1}. #{name }"
-      deli_line.unshift("The line is currently: ")
     end
+      deli_line.unshift("The line is currently: ")
     puts deli_line.join
   end
 end
