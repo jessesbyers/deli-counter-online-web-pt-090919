@@ -22,7 +22,7 @@ def line(array)
     puts "The line is currently empty."
 else
     array.each_with_index do |number, name|
-#      deli_line << "#{number}. #{name}"
+      deli_line << "#{number}. #{name}"
       phrase = "The line is currently: "
       deli_line.each do |name|
          puts phrase + "#{number + 1}. #{name}"
