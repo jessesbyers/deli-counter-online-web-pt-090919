@@ -23,10 +23,8 @@ def line(array)
 else
   deli_line << "The line is currently: "
 
-    array.each do |name, number|
-    number = array.index
-    num = number + 1
-      line = "#{num}. #{name}"
+    array.each_with_index do |number, name|
+      line = "#{number + 1}. #{name}"
       binding.pry
       deli_line << line
 end
