@@ -14,5 +14,7 @@ else
 end
 
 def take_a_number(array, string)
+  if array.length == 0
  array << string
+ end
 end
