@@ -27,6 +27,7 @@ else
       phrase = "The line is currently: "
       deli_line.each_with_index do |name, number|
          puts phrase + "#{name}"
+         number += 1
 end
     end
     puts deli_line
