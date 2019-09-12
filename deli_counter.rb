@@ -21,12 +21,12 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
 else
-  phrase_1 << "The line is currently: "
 
     array.each_with_index do |number, name|
-      phrase_2  "#{number + 1}. #{name}"
-      binding.pry
-      deli_line << phrase_1 + "#{phrase_2}"
+      phrase_1 = "The line is currently: "
+      phrase_2 = "#{number + 1}. #{name}"
+      deli_line.each do |name|
+         phrase_1 + "#{name}"
 end
     end
     return deli_line
