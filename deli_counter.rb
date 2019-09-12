@@ -19,5 +19,5 @@ def take_a_number(array, string)
    number = index + 1
    puts "Welcome, #{name}. You are number #{number} in line."
 end
-puts "Welcome, #{array[-1]}. You are number #{number} in line.
+puts "Welcome, #{array[-1]}. You are number #{number} in line."
 end
