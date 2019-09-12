@@ -29,7 +29,7 @@ else
 #         puts phrase + "#{name} "
 #end
     end
-    puts deli_line
+    puts deli_line.join
   end
 end
 
