@@ -24,7 +24,7 @@ else
 
     array.each_with_index do |number, name|
       phrase_1 = "The line is currently: "
-      phrase_2 = "#{number + 1}. #{name}"
+      phrase_2 = "#{number}. #{name}"
       deli_line.each do |name|
          phrase_1 + "#{name}"
 end
