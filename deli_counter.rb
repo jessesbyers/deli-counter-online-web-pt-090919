@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 
 # def line(array)
 #   new_array = []
@@ -26,6 +26,7 @@ else
     number = array.index + 1
       line = "#{number}. #{name}"
       deli_line << line
+      binding.pry
 end
     end
     return deli_line
