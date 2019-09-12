@@ -15,10 +15,10 @@ end
 
 def take_a_number(array, string)
   new_list = []
-  array.push(string)
  array.each_with_index do |name, index|
    number = index + 1
+   new_list.push(string)
    puts "Welcome, #{name}. You are number #{number} in line."
  end
- new_list << array
+ new_list
 end
