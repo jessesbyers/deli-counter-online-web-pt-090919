@@ -24,9 +24,9 @@ else
     array.each_with_index do |number, name|
       deli_line << "#{number}. #{name}"
       phrase = "The line is currently: "
+      binding.pry
       deli_line.each do |name|
          puts phrase + "#{number + 1}. #{name}"
-         binding.pry
 end
     end
     puts deli_line
