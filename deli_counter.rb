@@ -22,11 +22,11 @@ def line(array)
     puts "The line is currently empty."
 else
   deli_line << "The line is currently: "
+  binding.pry
     array.each do |name, number|
     number = array.index + 1
       line = "#{number}. #{name}"
       deli_line << line
-      binding.pry
 end
     end
     return deli_line
